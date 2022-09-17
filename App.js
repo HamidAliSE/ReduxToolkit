@@ -71,6 +71,7 @@ const App: () => Node = () => {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+        <Text>Redux Toolkit</Text>
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
